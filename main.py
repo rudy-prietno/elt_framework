@@ -20,7 +20,7 @@ if __name__ == '__main__':
                                                                     datetime_ ='bulk-2021-12-28-until-2021-12-28',
                                                                     cluster = '0'
                                                                 )
-        ops_etl_data_sds_monitoring = asyncio.ensure_future(
+        ops_etl_data = asyncio.ensure_future(
             operation_etl_datamodel(
                 key_access_='aws key access',
                 secret_access_='aws secret key',
